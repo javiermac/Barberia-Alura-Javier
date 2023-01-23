@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+body{
+    background: linear-gradient(145.32deg, #282828 19.23%, #3e3e3e 101.33%);
+    font-family:'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+/* selectores avanzados / SELECTORES ESPESIFICOS
+main > p{} selecciona el parrafo hijo del main 
+img +p{} selcciona el parrafo siguiente a la imagen 
+img ~ p {} selecciona todos los parrafos despues de la imagen
+.principal p:not (#mision) Selecciona dentro de la seccion principal todos los parrafos,
+menos el marcado con el ID mision.
+
+*/
+
+.menu {
+    background: #202020;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    margin-left: 100px;
+}
+
+.menuItems{
+    display: flex;
+    padding: 2px;
+    gap: 30px;
+    margin-right: 100px;
+    align-items: center;
+    
+}
+.menuItems a:hover{
+    color: #ADA64C;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.menuItems a:active{
+    color: #cec75c;
+}
+.botonDate{
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    gap: 28px;
+
+    width: 133px;
+    height: 40px;
+
+    background: #00C2FF;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+}
+
+
+
+
+
+#titulo {
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+    padding-left: 30px;
+    margin-block: 50px;
+    
+}
+    
+.banner {
+    width: 100%;
+}
+em strong {
+    color: rgb(174, 166, 55);
+}
+.principal, .mapa{
+    text-align: justify;
+    padding-bottom: 30px;
+    margin-inline: 50px;
+    
+}
+.parrafo1, .parrafo2, .parrafo3 {
+    margin: 0 0 1em;
+}
+
+.parrafo1 strong{
+    font-style: bold;
+    font-style: oblique;
+}
+
+.utencilio{
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+.sub{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.mapa p{
+    text-align: center;
+}
+
+
+
+.contenidoDiferenciales{
+   width: 640px;
+   margin: 50px  auto;
+
+}
+
+.listaDiferenciales{
+    vertical-align: top;
+   width: 40%;
+   display: inline-block;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:first-child{
+    font-size: 20px;
+}
+
+.items:before{
+    content:"💈"
+}
+
+.imagen2{
+    width: 60%;
+}
+
+.video{
+        display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-block: 50px;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+footer{
+    
+    text-align: center;
+    background: url(/Footer\ back.png);
+    padding-bottom: 100PX;
+}
+
+.imgFooter {
+    margin-top: 100px;
+}
+.Copyrigth {
+    font-size: 13PX;
+    margin-top: 30px;
+}
